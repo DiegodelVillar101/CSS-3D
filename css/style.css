@@ -87,3 +87,18 @@ span.desert::before{
 .imgbx input[type="checkbox"]:checked ~ span.desert::before{
     transform: rotateY(360deg);
 }
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, .1), 0 0 0 800px rgb(250,124,61);
+    pointer-events: none;
+}
+
+.imgbx input[type="checkbox"]:checked ~ .bg{
+    box-shadow: 0 25px 35px rgba(0, 0, 0, .1), 0 0 0 800px rgb(61,250,207);
+}
