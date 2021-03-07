@@ -132,4 +132,9 @@ span.desert::before{
         transform: rotateY(180deg);
         background-size: cover;
     }
+
+    .imgbx input[type="checkbox"]{
+        height: 125px;
+        width: 125px;
+    }
 }
