@@ -102,3 +102,11 @@ span.desert::before{
 .imgbx input[type="checkbox"]:checked ~ .bg{
     box-shadow: 0 25px 35px rgba(0, 0, 0, .1), 0 0 0 800px rgb(61,250,207);
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 990px){
+    .imgbx{
+        height: 250px;
+        width: 250px;
+    }
+}
